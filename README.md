@@ -1,5 +1,6 @@
 # Password Generator
 ![pass generator screenshot](pass-generator-ss.png)
+*Note: The app is not responsive.*
 
 ## Description
 Beginner JavaScript app for generate random passwords with some parameters as "include numbers", or "include special characters".
