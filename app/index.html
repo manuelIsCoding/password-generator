@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <header id="main-header">
+        <h1>Password Generator</h1>
+    </header>
+
+    <section id="main-content">
+        <div id="pg-container">
+            <h3>The generated password will be appeared down</h3>
+            <div id="gp-text-container">
+                <p id="gp-text"></p>
+            </div>
+            <form action="#">
+                <div class="form-select">
+                    <input type="checkbox" id="in-uppercase" name="in-uppercase" class="parameter">
+                    <label for="in-uppercase">Include uppercase characters</label>
+                </div>
+                <div class="clearfix"></div>
+                <div class="form-select">
+                    <input type="checkbox" id="in-numbers" name="in-numbers" class="parameter">
+                    <label for="in-numbers">Include numbers</label>
+                </div>
+                <div class="clearfix"></div>
+                <div class="form-select">
+                    <input type="checkbox" id="in-specialchars" name="in-specialchars" class="parameter">
+                    <label for="in-specialchars">Include special characters</label>
+                </div>
+                <div class="clearfix"></div>
+                <div class="form-select">
+                    <input type="text" id="pass-length" name="pass-length" class="parameter">
+                    <label for="pass-length">Length</label>
+                </div>
+                <button type="submit" id="generate-btn">Generate</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
